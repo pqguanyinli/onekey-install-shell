@@ -1,5 +1,5 @@
 ## FRP服务端一键安装及扩展运用
-===
+
 使用国内服务器搭建，需要域名备案才能使用。推荐使用：谷歌云、vultr、搬瓦工，其次推荐：阿里云、腾讯云。
 
 FRP github版本地址：https://github.com/fatedier/frp/releases
