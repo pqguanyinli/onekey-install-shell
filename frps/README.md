@@ -135,9 +135,9 @@ frps Dashboard: http://12.12.12.12:6443/   #  这个是frp控制台访问地址
 
 frpc文件说明 
 
-./frpc -c ./frpc.ini #临时启动启动frpc服务端
+```./frpc -c ./frpc.ini``` #临时启动启动frpc服务端
 
-nohup ./frpc -c ./frpc.ini & #后台保持启动
+```nohup ./frpc -c ./frpc.ini &``` #后台保持启动
 
 2.设置计划任务开启开机自动启动frpc
 ```
