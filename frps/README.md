@@ -8,18 +8,9 @@
 
 其次推荐：阿里云、腾讯云。
 
-安装平台：CentOS、Debian、Ubuntu。
-
 FRP github版本地址：https://github.com/fatedier/frp/releases
 
-可使用的Linux版本。建议Debian7或者Debian8/64bit.
-
-CentOS 6 32/64bit
-CentOS 7 32/64bit
-Debian 6 32/64bit
-Debian 7 32/64bit
-Debian 8 32/64bit
-Ubuntu 14 32/64bit
+可使用的Linux版本：建议Debian7或者Debian8/64bit.
 
 二、一键安装FRP服务端
 
