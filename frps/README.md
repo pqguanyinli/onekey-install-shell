@@ -112,7 +112,7 @@ frps Dashboard: http://12.12.12.12:6443/   #  这个是frp控制台访问地址
 
 程序版本：``` /etc/init.d/frps version```
 
-### 扩展：群晖安装FRPC教程：方法一
+## 扩展：群晖安装FRPC教程：方法一
 
 1.开启群晖SSH功能后运行以下面令。
 
@@ -145,7 +145,7 @@ frpc文件说明
 /frp/frp_0.20.0_linux_amd64/frpc -c /frp/frp_0.20.0_linux_amd64/frpc.ini
 ```
 
-### 扩展：群晖安装FRPC教程：方法二
+## 扩展：群晖安装FRPC教程：方法二
 
 1.下载群晖玩家自制的FRPC套件。
 
@@ -159,7 +159,7 @@ frpc文件说明
 
 5.安装设置frpc.ini 后启动套件即可。
 
-### 扩展：群晖安装FRPC教程：方法三
+## 扩展：群晖安装FRPC教程：方法三
 
 1.LEDE软路由安装frpc客服端
 
