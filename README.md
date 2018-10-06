@@ -15,7 +15,7 @@ FRP github版本地址：https://github.com/fatedier/frp/releases
 ## 二、一键安装FRP服务端
 
 ```
-wget --no-check-certificate https://raw.githubusercontent.com/clangcn/onekey-install-shell/master/frps/install-frps.sh -O ./install-frps.sh
+wget --no-check-certificate https://raw.githubusercontent.com/pqguanyinli/onekey-install-shell/master/frps/install-frps.sh -O ./install-frps.sh
 
 chmod 700 ./install-frps.sh
 
