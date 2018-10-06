@@ -1,18 +1,12 @@
-FRP一键安装及扩展运用，轻松实现外网访问群晖NAS。
+FRP服务端一键安装及扩展运用，轻松实现外网访问群晖NAS。
 ===========
-## 一、注意事项
-
-使用国内服务器搭建，需要域名备案才能使用。
-
-推荐使用：谷歌云、vultr、搬瓦工。
-
-其次推荐：阿里云、腾讯云。
+使用国内服务器搭建，需要域名备案才能使用。推荐使用：谷歌云、vultr、搬瓦工，其次推荐：阿里云、腾讯云。
 
 FRP github版本地址：https://github.com/fatedier/frp/releases
 
 可使用的Linux版本：建议Debian7或者Debian8/64bit.
 
-## 二、一键安装FRP服务端
+### 安装
 
 ```
 wget --no-check-certificate https://raw.githubusercontent.com/pqguanyinli/onekey-install-shell/master/frps/install-frps.sh -O ./install-frps.sh
@@ -22,18 +16,16 @@ chmod 700 ./install-frps.sh
 ./install-frps.sh install
 
 ```
-
-## 三、更新命令
-```
-./install-frps.sh update
-```
-## 四、卸载命令
+### 卸载
 ```
 ./install-frps.sh uninstall
 ```
-## 五、服务器端管理命令
+### 更新
+```
+./install-frps.sh update
+```
 
-服务端程序提供了以下几组功能：
+### 服务器端管理命令
 
 运行程序： ```/etc/init.d/frps start ``` 
 
