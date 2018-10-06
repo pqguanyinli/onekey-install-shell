@@ -1,6 +1,3 @@
-
-##安装平台：CentOS、Debian、Ubuntu。
-
 ### FRP内网穿透一键安装及扩展运用，轻松实现外网访问群晖NAS。
 
 一、注意事项
@@ -10,6 +7,8 @@
 推荐使用：谷歌云、vultr、搬瓦工。
 
 其次推荐：阿里云、腾讯云。
+
+安装平台：CentOS、Debian、Ubuntu。
 
 FRP github版本地址：https://github.com/fatedier/frp/releases
 
