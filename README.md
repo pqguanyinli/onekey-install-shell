@@ -6,18 +6,21 @@ FRP github版本地址：https://github.com/fatedier/frp/releases
 
 可使用的Linux版本：建议Debian7或者Debian8/64bit.
 
-### 安装
+### Install
 ```
 wget --no-check-certificate https://raw.githubusercontent.com/pqguanyinli/onekey-install-shell/master/frps/install-frps.sh -O ./install-frps.sh
-
 chmod 700 ./install-frps.sh
-
 ./install-frps.sh install
-
 ```
-### 卸载```./install-frps.sh uninstall```
+### Uninstall
+```
+./install-frps.sh uninstall
+```
 
-### 更新```./install-frps.sh update```
+### Update
+```
+./install-frps.sh update
+```
 
 ### 服务器端管理命令
 
