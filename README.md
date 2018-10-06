@@ -48,11 +48,11 @@ chmod 700 ./install-frps.sh
 
 ```cd frp```            #进入frp文件夹
 
-```wget https://github.com/fatedier/frp/releases/download/v0.20.0/frp_0.20.0_linux_amd64.tar.gz```    #下载frp
+```wget https://github.com/fatedier/frp/releases/download/v0.21.0/frp_0.21.0_linux_amd64.tar.gz```    #下载frp
 
-```tar -zxvf frp_0.20.0_linux_amd64.tar.gz```   #解压frp文件
+```tar -zxvf frp_0.21.0_linux_amd64.tar.gz```   #解压frp文件
 
-```cd frp_0.20.0_linux_amd64``` #进入frp文件夹
+```cd frp_0.21.0_linux_amd64``` #进入frp文件夹
 
 ```vi frpc.ini``` #修改frpc文件
 
@@ -66,7 +66,7 @@ frpc文件说明
 
 ### 2.设置计划任务开启开机自动启动frpc
 ```
-/frp/frp_0.20.0_linux_amd64/frpc -c /frp/frp_0.20.0_linux_amd64/frpc.ini
+/frp/frp_0.21.0_linux_amd64/frpc -c /frp/frp_0.21.0_linux_amd64/frpc.ini
 ```
 
 ## 扩展：群晖安装FRPC教程：方法二
