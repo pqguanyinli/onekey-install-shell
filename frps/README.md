@@ -1,6 +1,6 @@
 FRP一键安装及扩展运用，轻松实现外网访问群晖NAS。
 ===========
-一、注意事项
+## 一、注意事项
 
 使用国内服务器搭建，需要域名备案才能使用。
 
@@ -12,7 +12,7 @@ FRP github版本地址：https://github.com/fatedier/frp/releases
 
 可使用的Linux版本：建议Debian7或者Debian8/64bit.
 
-二、一键安装FRP服务端
+## 二、一键安装FRP服务端
 
 ```
 wget --no-check-certificate https://raw.githubusercontent.com/clangcn/onekey-install-shell/master/frps/install-frps.sh -O ./install-frps.sh
@@ -88,15 +88,15 @@ frps Dashboard: http://12.12.12.12:6443/   #  这个是frp控制台访问地址
 ==============================================
 ```
 
-三、更新命令
+## 三、更新命令
 ```
 ./install-frps.sh update
 ```
-四、卸载命令
+## 四、卸载命令
 ```
 ./install-frps.sh uninstall
 ```
-五、服务器端管理命令
+## 五、服务器端管理命令
 
 服务端程序提供了以下几组功能：
 
@@ -113,6 +113,7 @@ frps Dashboard: http://12.12.12.12:6443/   #  这个是frp控制台访问地址
 程序版本：``` /etc/init.d/frps version```
 
 ### 群晖安装FRPC教程：方法一
+
 1.开启群晖SSH功能后运行以下面令。
 
 ```sudo -i```         #获取最高权限
