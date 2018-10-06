@@ -114,7 +114,7 @@ frps Dashboard: http://12.12.12.12:6443/   #  这个是frp控制台访问地址
 
 ## 扩展：群晖安装FRPC教程：方法一
 
-1.开启群晖SSH功能后运行以下面令。
+### 1.开启群晖SSH功能后运行以下面令。
 
 ```sudo -i```         #获取最高权限
 
@@ -140,7 +140,7 @@ frpc文件说明
 
 ```nohup ./frpc -c ./frpc.ini &``` #后台保持启动
 
-2.设置计划任务开启开机自动启动frpc
+### 2.设置计划任务开启开机自动启动frpc
 ```
 /frp/frp_0.20.0_linux_amd64/frpc -c /frp/frp_0.20.0_linux_amd64/frpc.ini
 ```
