@@ -38,19 +38,19 @@ chmod 700 ./install-frps.sh
 
 ## 扩展：群晖安装FRPC教程：方法一
 
-### 1.开启群晖SSH功能后运行以下面令。
+### > 1.开启群晖SSH功能后运行以下面令。
+>
+> ```sudo -i```         #获取最高权限
 
-```sudo -i```         #获取最高权限
+> ```cd / ```             #到默认目录
 
-```cd / ```             #到默认目录
+> ```mkdir frp```         #建立文件夹frp
 
-```mkdir frp```         #建立文件夹frp
+> ```cd frp```            #进入frp文件夹
 
-```cd frp```            #进入frp文件夹
+> ```wget https://github.com/fatedier/frp/releases/download/v0.21.0/frp_0.21.0_linux_amd64.tar.gz```    #下载frp
 
-```wget https://github.com/fatedier/frp/releases/download/v0.21.0/frp_0.21.0_linux_amd64.tar.gz```    #下载frp
-
-```tar -zxvf frp_0.21.0_linux_amd64.tar.gz```   #解压frp文件
+> ```tar -zxvf frp_0.21.0_linux_amd64.tar.gz```   #解压frp文件
 
 ```cd frp_0.21.0_linux_amd64``` #进入frp文件夹
 
