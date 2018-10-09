@@ -76,6 +76,7 @@ frpc文件说明
 > 1.套件架构查询，确定群晖架构。
 >
 > 查询地址：
+>
 > https://www.synology.com/zh-cn/knowledgebase/DSM/tutorial/General/What_kind_of_CPU_does_my_NAS_have 
 >  
 > 2.选择你群晖机型的apk下载安装。
