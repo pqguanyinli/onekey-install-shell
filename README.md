@@ -71,23 +71,23 @@ frpc文件说明
 
 ## 扩展：群晖安装FRPC教程：方法二
 
-1.下载群晖玩家自制的FRPC套件。
+下载群晖玩家自制的FRPC套件。
 
-2.下载地址：https://u16883951.pipipan.com/dir/16883951-27851564-b29cac/
-
- https://www.synology.com/zh-cn/knowledgebase/DSM/tutorial/General/What_kind_of_CPU_does_my_NAS_have 套件架构查询地址
-  
-3.选择FRPC最新版本下载。
-
-4.选择你群晖机型的apk下载安装。
-
-5.安装设置frpc.ini 后启动套件即可。
+> 1.套件架构查询，确定群晖架构。
+>
+> 查询地址：https://www.synology.com/zh-cn/knowledgebase/DSM/tutorial/General/What_kind_of_CPU_does_my_NAS_have 
+>  
+> 2.选择你群晖机型的apk下载安装。
+>
+> 下载地址：https://u16883951.pipipan.com/dir/16883951-27851564-b29cac/
+>
+> 3.安装设置frpc.ini 后启动套件即可。
 
 ## 扩展：群晖安装FRPC教程：方法三
 
-1.LEDE软路由安装frpc客服端
-
-2.设置运行即可
+> 1.LEDE软路由安装frpc客服端
+>
+> 2.设置运行即可
 
 /sbin/iptables -I INPUT -p tcp --dport 7000 -j ACCEPT 
 #如需开放端口 请按照实际使用情况 依次开放 此处仅以7000端口为例。
