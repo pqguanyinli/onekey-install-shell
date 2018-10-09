@@ -24,17 +24,17 @@ chmod 700 ./install-frps.sh
 
 ### 服务器端管理命令
 
-运行程序： ```/etc/init.d/frps start ``` 
-
-停止程序： ```/etc/init.d/frps stop```
-
-重启程序： ```/etc/init.d/frps restart```
-
-运行状态：``` /etc/init.d/frps status```
-
-配置程序： ```/etc/init.d/frps config```
-
-程序版本：``` /etc/init.d/frps version```
+> 运行程序： ```/etc/init.d/frps start ``` 
+>
+> 停止程序： ```/etc/init.d/frps stop```
+>
+> 重启程序： ```/etc/init.d/frps restart```
+>
+> 运行状态：``` /etc/init.d/frps status```
+>
+> 配置程序： ```/etc/init.d/frps config```
+>
+> 程序版本：``` /etc/init.d/frps version```
 
 ## 扩展：群晖安装FRPC教程：方法一
 
