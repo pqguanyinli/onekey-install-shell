@@ -92,5 +92,6 @@ frpc文件说明
 > 2.设置运行即可
 
 /sbin/iptables -I INPUT -p tcp --dport 7000 -j ACCEPT 
+
 #如需开放端口 请按照实际使用情况 依次开放 此处仅以7000端口为例。
 
